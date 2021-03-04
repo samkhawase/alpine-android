@@ -3,9 +3,9 @@ name: Docker Images Builder
 on:
   push:
     branches:
-      - "!*"
+      - "*"
     tags:
-      - v*
+      - "*"
 
 env:
   DH_IMAGE_BASE_NAME: alvrme/alpine-android-base
