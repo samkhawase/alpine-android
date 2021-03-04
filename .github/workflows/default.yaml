@@ -1,4 +1,4 @@
-name: Docker Images Builder
+name: Docker Images Builder 
 
 on:
   push:
